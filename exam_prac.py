@@ -9,7 +9,36 @@
 #     - takes user name
 # - displays welcome user name back to user in same line
 
-def user_name():
-    username = input("please enter username: ")
-    return f"welcome {username} "
-print(user_name())
+# control flow
+# if elif else
+#  for & while loops
+# - how to iterate through a list of 5 items
+
+food = ["choc", "crisp", "sweets", "drinks"]
+for x in food:
+    print(x)
+i = 0
+while i < len(food):
+    print(food[i])
+    i = i + 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
